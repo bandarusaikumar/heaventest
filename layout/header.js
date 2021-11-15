@@ -34,7 +34,7 @@ function Header() {
                             </div>
                             <ul className="nav navbar-nav navbar">	
                                 <li><Link href="/"><a>Home</a></Link></li>
-                                <li className={`${open === "about" ? "open" : ""}`}><a  onClick={() => setOpen("about")}><span>Pages</span><i className="fa fa-chevron-down"></i></a>
+                                <li className={`${open === "about" ? "open" : ""}`}><a  onClick={() => setOpen("about")}><span>Packages</span><i className="fa fa-chevron-down"></i></a>
                                     <ul className="sub-menu">
                                         <li><Link href="/about-us-1"><a>About Us</a></Link></li>
 										<li><Link href="/faq-1"><a>Faq</a></Link></li>
